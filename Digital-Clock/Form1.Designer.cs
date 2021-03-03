@@ -39,55 +39,55 @@ namespace Digital_Clock
             // timeLabel
             // 
             this.timeLabel.AutoSize = true;
-            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timeLabel.Font = new System.Drawing.Font("DS-Digital", 144F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.ForeColor = System.Drawing.Color.White;
-            this.timeLabel.Location = new System.Drawing.Point(243, 105);
+            this.timeLabel.Location = new System.Drawing.Point(118, 94);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(284, 128);
+            this.timeLabel.Size = new System.Drawing.Size(498, 190);
             this.timeLabel.TabIndex = 0;
             this.timeLabel.Text = "03:06";
             // 
             // secondsLabel
             // 
             this.secondsLabel.AutoSize = true;
-            this.secondsLabel.Font = new System.Drawing.Font("Segoe UI", 24F);
+            this.secondsLabel.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsLabel.ForeColor = System.Drawing.Color.White;
-            this.secondsLabel.Location = new System.Drawing.Point(512, 172);
+            this.secondsLabel.Location = new System.Drawing.Point(571, 199);
             this.secondsLabel.Name = "secondsLabel";
-            this.secondsLabel.Size = new System.Drawing.Size(54, 45);
+            this.secondsLabel.Size = new System.Drawing.Size(89, 63);
             this.secondsLabel.TabIndex = 1;
             this.secondsLabel.Text = "55";
             // 
             // calLabel
             // 
             this.calLabel.AutoSize = true;
-            this.calLabel.Font = new System.Drawing.Font("Segoe UI", 36F);
+            this.calLabel.Font = new System.Drawing.Font("DS-Digital", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calLabel.ForeColor = System.Drawing.Color.White;
-            this.calLabel.Location = new System.Drawing.Point(48, 284);
+            this.calLabel.Location = new System.Drawing.Point(51, 317);
             this.calLabel.Name = "calLabel";
-            this.calLabel.Size = new System.Drawing.Size(372, 65);
+            this.calLabel.Size = new System.Drawing.Size(327, 47);
             this.calLabel.TabIndex = 2;
             this.calLabel.Text = "March 3rd, 2021";
             // 
             // dayLabel
             // 
             this.dayLabel.AutoSize = true;
-            this.dayLabel.Font = new System.Drawing.Font("Segoe UI", 36F);
+            this.dayLabel.Font = new System.Drawing.Font("DS-Digital", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dayLabel.ForeColor = System.Drawing.Color.White;
-            this.dayLabel.Location = new System.Drawing.Point(463, 299);
+            this.dayLabel.Location = new System.Drawing.Point(481, 317);
             this.dayLabel.Name = "dayLabel";
-            this.dayLabel.Size = new System.Drawing.Size(271, 65);
+            this.dayLabel.Size = new System.Drawing.Size(236, 47);
             this.dayLabel.TabIndex = 3;
             this.dayLabel.Text = "Wednesday";
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Segoe UI", 48F);
+            this.titleLabel.Font = new System.Drawing.Font("DS-Digital", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.Lime;
-            this.titleLabel.Location = new System.Drawing.Point(31, 19);
+            this.titleLabel.Location = new System.Drawing.Point(48, 31);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(743, 86);
+            this.titleLabel.Size = new System.Drawing.Size(707, 63);
             this.titleLabel.TabIndex = 4;
             this.titleLabel.Text = "Jordan\'s C# Digital Clock";
             // 
