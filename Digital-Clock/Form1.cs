@@ -19,10 +19,16 @@ namespace Digital_Clock
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            timeLabel.Text = DateTime.Now.ToString("HH:mm");
+            timeLabel.Text = DateTime.Now.ToString("hh:mm");
             secondsLabel.Text = DateTime.Now.ToString("ss");
-            calLabel.Text = DateTime.Now.ToString("MMM dd, yyyy");
+            amPmLabel.Text = DateTime.Now.ToString("tt");
+            calLabel.Text = DateTime.Now.ToString("MMMM dd, yyyy");
             dayLabel.Text = DateTime.Now.ToString("dddd");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer.Start();
         }
     }
 }
