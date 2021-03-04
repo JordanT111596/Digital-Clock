@@ -16,5 +16,13 @@ namespace Digital_Clock
         {
             InitializeComponent();
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            timeLabel.Text = DateTime.Now.ToString("HH:mm");
+            secondsLabel.Text = DateTime.Now.ToString("ss");
+            calLabel.Text = DateTime.Now.ToString("MMM dd, yyyy");
+            dayLabel.Text = DateTime.Now.ToString("dddd");
+        }
     }
 }
